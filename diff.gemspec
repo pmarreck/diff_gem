@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Peter Marreck", "Wayne Walter"]
-  s.cert_chain = ["/root/.ssh/gem-public_cert.pem"]
+  # s.cert_chain = ["/root/.ssh/gem-public_cert.pem"]
   s.date = %q{2010-06-28}
   s.description = %q{Diff Algorithm Implementation}
   s.email = %q{diffgem@tickzoom.com}
@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://users.cybercity.dk/~dsl8950/ruby/diff.html}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Diff", "--main", "README"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{diff}
+  s.rubyforge_project = %q{diff_gem}
   s.rubygems_version = %q{1.3.7}
-  s.signing_key = %q{/root/.ssh/gem-private_key.pem}
+  # s.signing_key = %q{/root/.ssh/gem-private_key.pem}
   s.summary = %q{Diff Algorithm Implementation}
   s.test_files = ["test/test_emailcases.rb", "test/test_emaildiff.rb", "test/test_unixdiff.rb", "test/test_diff.rb", "test/test_cases.rb"]
 
