@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{diff}
+  s.name = %q{diff_gem}
   s.version = "0.3.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Wayne Walter"]
+  s.authors = ["Peter Marreck", "Wayne Walter"]
   s.cert_chain = ["/root/.ssh/gem-public_cert.pem"]
   s.date = %q{2010-06-28}
   s.description = %q{Diff Algorithm Implementation}
